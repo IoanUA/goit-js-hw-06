@@ -7,11 +7,12 @@ butt.addEventListener('click', getRandomHexColor)
 
 function getRandomHexColor() {
  
- const backColorCode = `#${Math.floor(Math.random() * 16777215)
+ const ColorCode = `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
 
-  span.textContent = backColorCode;
-  body.style.backgroundColor = backColorCode;
-    console.log(backColorCode);
+  span.textContent = ColorCode;
+  body.style.backgroundColor = ColorCode;
+    console.log(ColorCode);
 }
+
