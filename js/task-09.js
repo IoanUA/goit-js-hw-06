@@ -13,6 +13,6 @@ function getRandomHexColor() {
 
   span.textContent = ColorCode;
   body.style.backgroundColor = ColorCode;
-    console.log(ColorCode);
+   console.log(ColorCode);
 }
 
