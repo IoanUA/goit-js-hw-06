@@ -34,14 +34,14 @@ event.preventDefault();
 const formElements = event.currentTarget.elements;
 
 const email = formElements.email.value;
-const pass = formElements.password.value;
+const password = formElements.password.value;
    
-    if(email ==="" || pass ===""){
+    if(email ==="" || password ===""){
         alert('все поля должны быть заполнены')
     }
     const getObject = {
         email,
-        pass,
+        password,
     }
     form.reset()
 console.log(getObject);
