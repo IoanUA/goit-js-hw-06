@@ -6,4 +6,8 @@ textInput.addEventListener('input', onShowInputText);
 
 function onShowInputText(){
     span.textContent = textInput.value
+
+    if(textInput.value.trim() === ""){
+    span.textContent = "Anonimys"
+}
 }

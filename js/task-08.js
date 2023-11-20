@@ -37,7 +37,7 @@ const email = formElements.email.value;
 const password = formElements.password.value;
    
     if(email ==="" || password ===""){
-        alert('все поля должны быть заполнены')
+      return  alert('все поля должны быть заполнены')
     }
     const getObject = {
         email,
