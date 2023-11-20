@@ -12,7 +12,8 @@ function getRandomHexColor() {
 
 butt.addEventListener("click", function () {
   const randomColor = getRandomHexColor();
-  document.body.style.backgroundColor = randomColor;
+  body.style.backgroundColor = randomColor;
   span.textContent = randomColor;
+  
 });
 
